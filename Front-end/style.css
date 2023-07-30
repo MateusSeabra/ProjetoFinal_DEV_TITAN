@@ -17,6 +17,10 @@ p, li {
     font-size: 14px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /* Estilos Navbar */
 
 #nav-container {
@@ -49,23 +53,27 @@ p, li {
     padding: 1rem .8rem;
 }
 
+.navbar-nav .nav-item:hover {
+    color: #65DAF9 !important;
+}
+
 /* Estilos Slider */
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 90vh;
+    height: 100vh;
 }
 
 #mainSlider .carousel-caption {
     bottom: 10%;
 }
 
-#mainSlider .carousel-caption h2{
+#mainSlider .carousel-caption h2 {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-#mainSlider .carousel-caption p{
+#mainSlider .carousel-caption p {
     font-size: 20px;
     font-weight: 500;
     color: #FFF;
@@ -91,10 +99,77 @@ p, li {
     border-color: #65DAF9;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
     border-radius: 30px;
 }
 
 .carousel-indicators .active {
     background-color: #65DAF9;
+}
+
+/* Estilos Categories */
+
+.service-box {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.service-box img, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box img {
+    width: 80px;
+}
+
+.service-box h4 {
+    margin-top: 10px;
+    color: #444;
+}
+
+.service-box:hover > * > h4 {
+    color: #65DAF9;
+}
+
+/* Estilos About */
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 12%;
+    position: absolute;
+    top: 60px;
+    left: 44.3%;
+}
+
+.line-big::after {
+    width: 25%;
+    left: 38%;
+}
+
+.about-title {
+    font-size: 18px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list li {
+    line-height: 50px;
+}
+
+#about-list i {
+    margin-right: 15px;
+}
+
+#about-container {
+    height: 95vh;
 }
