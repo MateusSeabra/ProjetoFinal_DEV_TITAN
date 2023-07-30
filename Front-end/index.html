@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Setups Gerais-->
+    <!-- Setups Gerais -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,14 +27,14 @@
         crossorigin="anonymous">
     </script>
 
-    <!-- Css Setup-->
+    <!-- Css Setup -->
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <!-- Barra de Navegação-->
+        <!-- Barra de Navegação -->
 
         <div id="nav-container" class="container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
@@ -49,9 +49,9 @@
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link" id="home-menu">Página Inicial</a>
-                        <a href="#" class="nav-item nav-link" id="hot-menu">Popular</a>
-                        <a href="#" class="nav-item nav-link" id="news-menu">Notícias</a>
+                        <a href="#" class="nav-item nav-link" id="home-menu">Notícias Populares</a>
+                        <a href="#" class="nav-item nav-link" id="news-menu">Todas as Notícias</a>
+                        <a href="#" class="nav-item nav-link" id="news-menu">Categorias de Notícias</a>
                         <a href="#" class="nav-item nav-link" id="about-menu">Sobre Nós</a>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
     </header>
 
     <main>
-        <!-- Slider de Notícias-->
+        <!-- Slider de Notícias -->
         
         <div class="container-fluid p-0">
             <div id="mainSlider" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -118,6 +118,79 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+            </div>
+        </div>
+
+        <!-- Categorias de Notícias -->
+
+        <div id="categories-area">
+            <div id="categories-container" class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title line-big">Categorias de Notícias</h3>
+                    </div>
+
+                    <div class="col-md-6 service-box">
+                        <a href="#">
+                            <img src="Assets/icon-sports.png" alt="Esportes">
+                            <h4>Esportes</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 service-box">
+                        <a href="#">
+                            <img src="Assets/icon-tech.png" alt="Tecnologia">
+                            <h4>Tecnologia</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 service-box">
+                        <a href="#">
+                            <img src="Assets/icon-arts.png" alt="Artes">
+                            <h4>Artes</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 service-box">
+                        <a href="#">
+                            <img src="Assets/icon-others.png" alt="Outros">
+                            <h4>Outros</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Informações da Empresa -->
+
+        <div id="about-area">
+            <div id="about-container" class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre Nós</h3>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="Assets/about-image.png" alt="Reunião Profissional">
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3 class="about-title">O jornal que ecoa as notícias para o povo</h3>
+
+                        <p>
+                            Na Echo Notícias, buscamos trazer informações atuais e importantes,
+                            considerando nossa prioridade máxima a satisfação e aprovação dos
+                            nossos leitores. 
+                        </p>
+
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i>Somos uma empresa jornalística nova e em constante evolução.</li>
+                            <li><i class="fas fa-check"></i>Nossa meta número um é trazer notícias relevantes e honestas.</li>
+                            <li><i class="fas fa-check"></i>Trazemos uma plataforma prática e acessível para nossos leitores.</li>
+                            <li><i class="fas fa-check"></i>Estamos sempre em contato e respondendo a feedbacks construtivos.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
