@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./Assets/logo.png">
+    <link rel="icon" href="../Assets/logo.png">
     <title>Echo Notícias</title>
 
     <!-- Boostrap Setup -->
@@ -14,18 +14,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
 
     <!-- Css Setup -->
 
@@ -39,7 +34,7 @@
         <div id="nav-container" class="container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
                 <a href="#" class="navbar-brand">
-                    <img id="logo" src="./Assets/logo.png" alt="Logo"> Echo Notícias
+                    <img id="logo" src="../Assets/logo.png" alt="Logo"> Echo Notícias
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
@@ -51,7 +46,6 @@
                     <div class="navbar-nav">
                         <a href="#" class="nav-item nav-link" id="home-menu">Notícias Populares</a>
                         <a href="#" class="nav-item nav-link" id="news-menu">Todas as Notícias</a>
-                        <a href="#" class="nav-item nav-link" id="news-menu">Categorias de Notícias</a>
                         <a href="#" class="nav-item nav-link" id="about-menu">Sobre Nós</a>
                     </div>
                 </div>
@@ -61,7 +55,7 @@
 
     <main>
         <!-- Slider de Notícias -->
-        
+
         <div class="container-fluid p-0">
             <div id="mainSlider" class="carousel slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
@@ -73,8 +67,8 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="Assets/slider-0.jpg" class="d-block w-100" alt="Primeira Notícia">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="../Assets/slider-0.jpg" class="d-block w-100" alt="Primeira Notícia">
+                        <div class="carousel-caption d-md-block">
                             <h2>Título da Notícia</h2>
                             <p>Resumo da Notícia</p>
                             <a href="#" class="main-btn">Ver Notícia</a>
@@ -82,8 +76,8 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="Assets/slider-1.jpg" class="d-block w-100" alt="Segunda Notícia">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="../Assets/slider-1.jpg" class="d-block w-100" alt="Segunda Notícia">
+                        <div class="carousel-caption d-md-block">
                             <h2>Título da Notícia</h2>
                             <p>Resumo da Notícia</p>
                             <a href="#" class="main-btn">Ver Notícia</a>
@@ -91,8 +85,8 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="Assets/slider-2.jpg" class="d-block w-100" alt="Terceira Notícia">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="../Assets/slider-2.jpg" class="d-block w-100" alt="Terceira Notícia">
+                        <div class="carousel-caption d-md-block">
                             <h2>Título da Notícia</h2>
                             <p>Resumo da Notícia</p>
                             <a href="#" class="main-btn">Ver Notícia</a>
@@ -100,8 +94,8 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="Assets/slider-3.jpg" class="d-block w-100" alt="Quarta Notícia">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="../Assets/slider-3.jpg" class="d-block w-100" alt="Quarta Notícia">
+                        <div class="carousel-caption d-md-block">
                             <h2>Título da Notícia</h2>
                             <p>Resumo da Notícia</p>
                             <a href="#" class="main-btn">Ver Notícia</a>
@@ -121,46 +115,6 @@
             </div>
         </div>
 
-        <!-- Categorias de Notícias -->
-
-        <div id="categories-area">
-            <div id="categories-container" class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title line-big">Categorias de Notícias</h3>
-                    </div>
-
-                    <div class="col-md-6 service-box">
-                        <a href="#">
-                            <img src="Assets/icon-sports.png" alt="Esportes">
-                            <h4>Esportes</h4>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 service-box">
-                        <a href="#">
-                            <img src="Assets/icon-tech.png" alt="Tecnologia">
-                            <h4>Tecnologia</h4>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 service-box">
-                        <a href="#">
-                            <img src="Assets/icon-arts.png" alt="Artes">
-                            <h4>Artes</h4>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 service-box">
-                        <a href="#">
-                            <img src="Assets/icon-others.png" alt="Outros">
-                            <h4>Outros</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Informações da Empresa -->
 
         <div id="about-area">
@@ -171,7 +125,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <img class="img-fluid" src="Assets/about-image.png" alt="Reunião Profissional">
+                        <img class="img-fluid" src="../Assets/about-image.png" alt="Reunião Profissional">
                     </div>
 
                     <div class="col-md-6">
@@ -180,14 +134,18 @@
                         <p>
                             Na Echo Notícias, buscamos trazer informações atuais e importantes,
                             considerando nossa prioridade máxima a satisfação e aprovação dos
-                            nossos leitores. 
+                            nossos leitores.
                         </p>
 
                         <ul id="about-list">
-                            <li><i class="fas fa-check"></i>Somos uma empresa jornalística nova e em constante evolução.</li>
-                            <li><i class="fas fa-check"></i>Nossa meta número um é trazer notícias relevantes e honestas.</li>
-                            <li><i class="fas fa-check"></i>Trazemos uma plataforma prática e acessível para nossos leitores.</li>
-                            <li><i class="fas fa-check"></i>Estamos sempre em contato e respondendo a feedbacks construtivos.</li>
+                            <li><i class="fas fa-check"></i>Somos uma empresa jornalística nova e em constante evolução.
+                            </li>
+                            <li><i class="fas fa-check"></i>Nossa meta número um é trazer notícias relevantes e
+                                honestas.</li>
+                            <li><i class="fas fa-check"></i>Trazemos uma plataforma prática e acessível para nossos
+                                leitores.</li>
+                            <li><i class="fas fa-check"></i>Estamos sempre em contato e respondendo a feedbacks
+                                construtivos.</li>
                         </ul>
                     </div>
                 </div>
@@ -202,17 +160,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 contact-box">
-                        <img class="img-fluid" src="Assets/icon-phone.png" alt="Telefone">
+                        <img class="img-fluid" src="../Assets/icon-phone.png" alt="Telefone">
                         <p><span class="contact-tile">Telefone: </span> (99) 99999-9999</p>
                     </div>
 
                     <div class="col-md-4 contact-box">
-                        <img class="img-fluid" src="Assets/icon-email.png" alt="Email">
+                        <img class="img-fluid" src="../Assets/icon-email.png" alt="Email">
                         <p><span class="contact-tile">E-Mail: </span> noticias@echo.com.br</p>
                     </div>
 
                     <div class="col-md-4 contact-box">
-                        <img src="Assets/icon-home.png" alt="Endereço">
+                        <img src="../Assets/icon-home.png" alt="Endereço">
                         <p><span class="contact-tile">Endereço: </span> Salvador, Rua Titânica, n° 1234</p>
                     </div>
                 </div>
@@ -229,6 +187,10 @@
             </div>
         </div>
     </footer>
+
+    <!-- Js Setup -->
+
+    <script src="./code.js"></script>
 </body>
 
 </html>
