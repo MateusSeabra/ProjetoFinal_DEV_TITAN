@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Setups Gerais -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Assets/logo.png">
+    <title>Echo Notícias</title>
+
+    <!-- Boostrap Setup -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <!-- Css Setup -->
+
+    <link rel="stylesheet" href="news-style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Barra de Navegação -->
+
+        <div id="nav-container" class="container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="../Assets/logo.png" alt="Logo"> Echo Notícias
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link" id="home-menu">Notícias Populares</a>
+                        <a href="#" class="nav-item nav-link" id="news-menu">Todas as Notícias</a>
+                        <a href="#" class="nav-item nav-link" id="about-menu">Sobre Nós</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Lista de Notícias -->
+
+        <div id="newslist-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Lista de Notícias</h3>
+                    </div>
+
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn filter-btn active" id="all-btn">Todas</button>
+                        <button class="main-btn filter-btn" id="sports-btn">Esportes</button>
+                        <button class="main-btn filter-btn" id="tech-btn">Tecnologia</button>
+                        <button class="main-btn filter-btn" id="arts-btn">Artes</button>
+                        <button class="main-btn filter-btn" id="others-btn">Outros</button>
+                    </div>
+
+                    <div class="col-md-4 project-box sports">
+                        <img src="../Assets/slider-0.jpg" class="img-fluid" alt="Primeira Notícia">
+                        <p class="news-title">Título da Notícia</p>
+                        <p class="news-abstract"> Resumo da Notícia</p>
+                        <p>Data da Notícia</p>
+                    </div>
+
+                    <div class="col-md-4 project-box tech">
+                        <img src="../Assets/slider-1.jpg" class="img-fluid" alt="Segunda Notícia">
+                        <p class="news-title">Título da Notícia</p>
+                        <p class="news-abstract"> Resumo da Notícia</p>
+                        <p>Data da Notícia</p>
+                    </div>
+
+                    <div class="col-md-4 project-box arts">
+                        <img src="../Assets/slider-2.jpg" class="img-fluid" alt="Terceira Notícia">
+                        <p class="news-title">Título da Notícia</p>
+                        <p class="news-abstract"> Resumo da Notícia</p>
+                        <p>Data da Notícia</p>
+                    </div>
+
+                    <div class="col-md-4 project-box others">
+                        <img src="../Assets/slider-3.jpg" class="img-fluid" alt="Quarta Notícia">
+                        <p class="news-title">Título da Notícia</p>
+                        <p class="news-abstract"> Resumo da Notícia</p>
+                        <p>Data da Notícia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <!-- Rodapé -->
+
+        <div id="contact-area" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 contact-box">
+                        <img class="img-fluid" src="../Assets/icon-phone.png" alt="Telefone">
+                        <p><span class="contact-tile">Telefone: </span> (99) 99999-9999</p>
+                    </div>
+
+                    <div class="col-md-4 contact-box">
+                        <img class="img-fluid" src="../Assets/icon-email.png" alt="Email">
+                        <p><span class="contact-tile">E-Mail: </span> noticias@echo.com.br</p>
+                    </div>
+
+                    <div class="col-md-4 contact-box">
+                        <img src="../Assets/icon-home.png" alt="Endereço">
+                        <p><span class="contact-tile">Endereço: </span> Salvador, Rua Titânica, n° 1234</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="copy-area" class="dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por: <a href="#">Echo Notícias</a> &copy; 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Js Setup -->
+
+    <script src="./news-code.js"></script>
+</body>
+
+</html>
