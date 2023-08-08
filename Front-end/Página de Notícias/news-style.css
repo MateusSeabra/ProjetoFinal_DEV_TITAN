@@ -66,6 +66,7 @@ a:hover {
 .main-btn {
     color: #444;
     border: 1px solid #444;
+    outline: none;
     background-color: transparent;
     text-transform: uppercase;
     width: 150px;
@@ -81,6 +82,7 @@ a:hover {
     color: #FFF;
     background-color: #65DAF9;
     border-color: #65DAF9;
+    outline: none;
 }
 
 .main-title {
