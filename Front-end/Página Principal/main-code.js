@@ -9,10 +9,10 @@ $(document).ready(function() {
     $(navBtn).click(function() {
         let btnId = $(this).attr('id');
 
-        if (btnId == 'about-menu') {
-            scrollTo = aboutSection;
-        } else {
-            scrollTo = homeSection
+        if (btnId == 'home-menu') {
+            scrollTo = homeSection;
+        } else if (btnId == 'about-menu') {
+            scrollTo = aboutSection
         }
 
         $([document.documentElement, document.body]).animate({
