@@ -1,14 +1,28 @@
+
 const express = require('express');
-
 const router = express.Router();
+const axios = require('axios');
+// Data base import
+const urlUsers = require('../db/users.json')
+const urlNews = require('../db/news.json')
 
-router.get('/', (req, res) => res.status(200).send('Hello'));
+router.get('/users', (req,res) => res.send(urlUsers))
+router.get('/news', (req,res) => res.send(urlNews))
+
+// Requisições para o front
 
 
 
 
 
-// router.post('/user', (req, res) =>  console.log(req.body))
+
+
+
+
+
+
+
+
 
 module.exports = router;
  

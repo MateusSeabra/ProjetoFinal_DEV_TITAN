@@ -1,4 +1,6 @@
-{
+{ 
+  "news": 
+  {
     "esporte": [
       { 
         "id": "1",
@@ -79,5 +81,6 @@
         "categoria": "outros"
       }
     ]
-  }
+  } 
+}
   
