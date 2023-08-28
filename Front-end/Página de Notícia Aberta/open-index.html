@@ -24,7 +24,7 @@
 
     <!-- Css Setup -->
 
-    <link rel="stylesheet" href="news-style.css">
+    <link rel="stylesheet" href="open-style.css">
 </head>
 
 <body>
@@ -44,7 +44,10 @@
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a href="../Página Principal/main-index.html" class="nav-item nav-link" id="home-menu">Página Principal</a>
+                        <a href="../Página Principal/main-index.html" class="nav-item nav-link" id="home-menu">Página
+                            Principal</a>
+                        <a href="../Página de Notícias/news-index.html" class="nav-item nav-link" id="news-menu">Todas
+                            as Notícias</a>
                     </div>
                 </div>
             </nav>
@@ -52,49 +55,33 @@
     </header>
 
     <main>
-        <!-- Lista de Notícias -->
+        <!-- Notícia Aberta -->
 
-        <div id="newslist-area">
-            <div class="container">
+        <div id="news-area">
+            <div id="news-container" class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="main-title">Lista de Notícias</h3>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="../Assets/about-image.png" alt="Reunião Profissional">
                     </div>
 
-                    <div class="col-md-12" id="filter-btn-box">
-                        <button class="main-btn filter-btn active" id="all-btn">Todas</button>
-                        <button class="main-btn filter-btn" id="sports-btn">Esportes</button>
-                        <button class="main-btn filter-btn" id="tech-btn">Tecnologia</button>
-                        <button class="main-btn filter-btn" id="arts-btn">Artes</button>
-                        <button class="main-btn filter-btn" id="others-btn">Outros</button>
-                    </div>
+                    <div class="col-md-6">
+                        <h3 class="news-title">Título da Notícia</h3>
 
-                    <div class="col-md-4 project-box sports">
-                        <img src="../Assets/slider-0.jpg" class="img-fluid" alt="Primeira Notícia">
-                        <p class="news-title">Título da Notícia</p>
-                        <p class="news-abstract"> Resumo da Notícia</p>
-                        <p>Data da Notícia</p>
-                    </div>
+                        <h2 class="news-specs">Autor da Notícia</h2>
 
-                    <div class="col-md-4 project-box tech">
-                        <img src="../Assets/slider-1.jpg" class="img-fluid" alt="Segunda Notícia">
-                        <p class="news-title">Título da Notícia</p>
-                        <p class="news-abstract"> Resumo da Notícia</p>
-                        <p>Data da Notícia</p>
-                    </div>
+                        <h2 class="news-specs">Categoria da Notícia</h2>
 
-                    <div class="col-md-4 project-box arts">
-                        <img src="../Assets/slider-2.jpg" class="img-fluid" alt="Terceira Notícia">
-                        <p class="news-title">Título da Notícia</p>
-                        <p class="news-abstract"> Resumo da Notícia</p>
-                        <p>Data da Notícia</p>
-                    </div>
-
-                    <div class="col-md-4 project-box others">
-                        <img src="../Assets/slider-3.jpg" class="img-fluid" alt="Quarta Notícia">
-                        <p class="news-title">Título da Notícia</p>
-                        <p class="news-abstract"> Resumo da Notícia</p>
-                        <p>Data da Notícia</p>
+                        <p class="news-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, soluta voluptate. Officiis,
+                            quaerat esse odio libero iste rem velit in porro amet nostrum, optio, nulla soluta totam
+                            laboriosam vero facere.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quos quisquam ad ipsum
+                            eum ullam aspernatur voluptates modi quia laboriosam culpa, eligendi debitis, omnis alias
+                            iure quod laborum natus facere!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem fugit aperiam velit
+                            illum accusantium voluptatibus suscipit quam doloremque recusandae dicta? Aperiam quam ad
+                            error voluptatum dolores voluptas magni maxime aliquam!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -129,16 +116,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Desenvolvido por: <a href="../Página Principal/main-index.html">Echo Notícias</a> &copy; 2023</p>
+                        <p>Desenvolvido por: <a href="../Página Principal/main-index.html">Echo Notícias</a> &copy; 2023
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- Js Setup -->
-
-    <script src="./news-code.js"></script>
 </body>
 
 </html>
