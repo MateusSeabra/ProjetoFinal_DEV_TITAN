@@ -144,3 +144,41 @@ a:hover {
 .contact-tile {
     font-weight: bold;
 }
+
+/* Responsividade Tablet */ 
+
+@media(max-width: 1200px) {
+    /* Estilos Footer */
+
+    #contact-area {
+        height: auto;
+    }
+
+    #contact-area .container {
+        padding: 0;
+    }
+}
+
+/* Responsividade Celular */ 
+
+@media(max-width: 600px) {
+    /* Estilos Notícia */
+
+    main {
+        margin-bottom: 60px;
+    }
+
+    #news-div {
+        margin-top: 40px;
+    }
+
+    /* Estilos Footer */
+
+    #contact-area {
+        height: auto;
+    }
+
+    #contact-area .container {
+        padding: 0;
+    }
+}
