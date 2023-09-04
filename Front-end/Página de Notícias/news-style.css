@@ -109,6 +109,10 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.project-box img {
+    height: 80%;
+}
+
 #filter-btn-box {
     margin-bottom: 50px;
     text-align: center;
@@ -193,11 +197,50 @@ a:hover {
     .container {
         padding: 20px 0;
     }
+
+    /* Estilos Lista de Notícias */
+
+    #title-div {
+        margin-top: 40px;
+    }
+    
+    /* Estilos Footer */
+
+    #contact-area {
+        height: auto;
+    }
+
+    #contact-area .container {
+        padding: 0;
+    }
 }
 
 /* Responsividade Celular */ 
 
-@media(max-width: 600px) {
+@media(max-width: 1000px) {
+    /* Estilos Lista de Notícias */
+
+    #title-div {
+        margin-top: 40px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+    
+    .main-title::after {
+        width: 25%;
+        left: 38%;
+    }
+
+    #newslist-area .filter-btn {
+        margin-bottom: 20px;
+    }
+
+    .project-box {
+        width: 50%;
+    }
+    
     /* Estilos Footer */
 
     #contact-area {
