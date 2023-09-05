@@ -5,11 +5,16 @@
   },
   "name": "back-end",
   "version": "1.0.0",
-  "main": "server.js",
-  "devDependencies": {},
-  "scripts": {},
+  "main": "",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "keywords": [],
-  "author": "Fábio Jose, Matheus Seabra",
+  "author": "Fábio Jose, Mateus Seabra",
   "license": "ISC",
   "description": ""
 }

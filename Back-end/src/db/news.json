@@ -1,86 +1,84 @@
-{ 
-  "news": 
-  {
-    "esporte": [
-      { 
-        "id": "1",
-        "imagem": "link_para_imagem_esporte1",
-        "título": "Equipe Nacional Conquista o Ouro nas Olimpíadas",
-        "conteúdo": "A equipe nacional brilhou nas Olimpíadas, conquistando a medalha de ouro no esporte, com um desempenho excepcional que surpreendeu a todos.",
-        "autor": "João Silva",
-        "comentários": [],
-        "categoria": "esporte"
-      },
-      { 
-        "id": "2",
-        "imagem": "link_para_imagem_esporte2",
-        "título": "Novo Recorde Mundial Estabelecido em Corrida de Velocidade",
-        "conteúdo": "Um atleta talentoso estabeleceu um novo recorde mundial na corrida de 100 metros, deixando para trás a marca anterior por uma margem impressionante.",
-        "autor": "Maria Rodrigues",
-        "comentários": [],
-        "categoria": "esporte"
-      }
-    ],
-    "tecnologia": [
-      { 
-        "id": "3",
-        "imagem": "link_para_imagem_tecnologia1",
-        "título": "Empresa Lança Smartphone Inovador com Tecnologia de Holografia",
-        "conteúdo": "Uma empresa de tecnologia revelou seu mais recente smartphone equipado com uma incrível tecnologia de holografia, mudando a forma como interagimos com nossos dispositivos.",
-        "autor": "Carlos Oliveira",
-        "comentários": [],
-        "categoria": "tecnologia"
-      },
-      { 
-        "id": "4",
-        "imagem": "link_para_imagem_tecnologia2",
-        "título": "Avanços na Inteligência Artificial Revolucionam a Indústria",
-        "conteúdo": "Os avanços recentes na inteligência artificial estão causando um impacto significativo em várias indústrias, desde cuidados de saúde até manufatura.",
-        "autor": "Ana Santos",
-        "comentários": [],
-        "categoria": "tecnologia"
-      }
-    ],
-    "arte": [
-      { 
-        "id": "5",
-        "imagem": "link_para_imagem_arte1",
-        "título": "Artista Local Realiza Exposição de Pinturas Abstratas",
-        "conteúdo": "Um artista local renomado está expondo sua mais recente coleção de pinturas abstratas na galeria de arte da cidade, impressionando os visitantes com sua criatividade única.",
-        "autor": "Pedro Almeida",
-        "comentários": [],
-        "categoria": "arte"
-      },
-      { 
-        "id": "6",
-        "imagem": "link_para_imagem_arte2",
-        "título": "Peça Teatral Inspiradora Encanta a Audiência",
-        "conteúdo": "Uma peça teatral emotiva e inspiradora está sendo apresentada no teatro principal, recebendo elogios por sua atuação excepcional e mensagem impactante.",
-        "autor": "Mariana Ribeiro",
-        "comentários": [],
-        "categoria": "arte"
-      }
-    ],
-    "outros": [
-      { 
-        "id": "7",
-        "imagem": "link_para_imagem_outros1",
-        "título": "Inauguração de Novo Parque Recreativo na Cidade",
-        "conteúdo": "Um novo parque recreativo foi inaugurado na cidade, proporcionando um espaço verde e divertido para os moradores desfrutarem de atividades ao ar livre.",
-        "autor": "Lucas Costa",
-        "comentários": [],
-        "categoria": "outros"
-      },
-      { 
-        "id": "8",
-        "imagem": "link_para_imagem_outros2",
-        "título": "Voluntários Se Unem para Limpeza da Praia",
-        "conteúdo": "Diversos voluntários locais se uniram para uma iniciativa de limpeza na praia, demonstrando o comprometimento da comunidade com a preservação do meio ambiente.",
-        "autor": "Isabela Fernandes",
-        "comentários": [],
-        "categoria": "outros"
-      }
-    ]
-  } 
+{
+    "news": {
+        "sports": [
+            {
+                "id": "1",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "sports"
+            },
+            {
+                "id": "2",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "sports"
+            }
+        ],
+        "tech": [
+            {
+                "id": "3",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "tech"
+            },
+            {
+                "id": "4",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "tech"
+            }
+        ],
+        "arts": [
+            {
+                "id": "5",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "arts"
+            },
+            {
+                "id": "6",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "arts"
+            }
+        ],
+        "others": [
+            {
+                "id": "7",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "others"
+            },
+            {
+                "id": "8",
+                "image": "imagem",
+                "title": "título",
+                "data": "conteúdo",
+                "author": "autor",
+                "comments": [],
+                "category": "others"
+            }
+        ]
+    }
 }
-  
