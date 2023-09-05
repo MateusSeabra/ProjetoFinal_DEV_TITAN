@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Lorem ipsum",
+            "content": "Dolor sit amet",
+            "author": {
+                "name": "autor 1",
+                "age": 50
+            }
+        },
+        {
+            "id": 2,
+            "title": "Sed do eiusmod",
+            "content": "Tempor incididunt",
+            "author": {
+                "name": "autor 2",
+                "age": 30
+            }
+        },
+        {
+            "id": 3,
+            "title": "postagem 3",
+            "content": "conteudo",
+            "author": {
+                "name": "felipe",
+                "age": "20"
+            }
+        },
+        {
+            "id": 4,
+            "title": "postagem 4",
+            "content": "conteúdo 4",
+            "author": {
+                "name": "masserati",
+                "age": "25"
+            }
+        }
+    ]
+}
