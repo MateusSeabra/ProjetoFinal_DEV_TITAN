@@ -1,84 +1,84 @@
 {
-    "news": {
-        "sports": [
-            {
-                "id": "1",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "sports"
-            },
-            {
-                "id": "2",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "sports"
-            }
-        ],
-        "tech": [
-            {
-                "id": "3",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "tech"
-            },
-            {
-                "id": "4",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "tech"
-            }
-        ],
-        "arts": [
-            {
-                "id": "5",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "arts"
-            },
-            {
-                "id": "6",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "arts"
-            }
-        ],
-        "others": [
-            {
-                "id": "7",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "others"
-            },
-            {
-                "id": "8",
-                "image": "imagem",
-                "title": "título",
-                "data": "conteúdo",
-                "author": "autor",
-                "comments": [],
-                "category": "others"
-            }
-        ]
-    }
+  "news": {
+    "sports": [
+      {
+        "id": "1",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "sports"
+      },
+      {
+        "id": "2",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "sports"
+      }
+    ],
+    "tech": [
+      {
+        "id": "3",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "tech"
+      },
+      {
+        "id": "4",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "tech"
+      }
+    ],
+    "arts": [
+      {
+        "id": "5",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "arts"
+      },
+      {
+        "id": "6",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "arts"
+      }
+    ],
+    "others": [
+      {
+        "id": "7",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "others"
+      },
+      {
+        "id": "8",
+        "image": "imagem",
+        "title": "título",
+        "data": "conteúdo",
+        "author": "autor",
+        "comments": [],
+        "category": "others"
+      }
+    ]
+  }
 }
