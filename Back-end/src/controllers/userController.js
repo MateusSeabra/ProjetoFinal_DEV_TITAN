@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const userJsonPath = path.join('src', 'app', 'db', 'user.json')
+const userJsonPath = path.join('src', 'db', 'user.json')
 
 function readUserJson() {
     return JSON.parse(fs.readFileSync(userJsonPath, 'utf-8'))
@@ -43,8 +43,9 @@ class UserController {
     store(req, res) {
         try {
             const newUser = req.body
-            const userJson = readUserJson()
 
+            const userJson = readUserJson()
+            
             newUser.id = userJson.users.length + 1
             
             if (

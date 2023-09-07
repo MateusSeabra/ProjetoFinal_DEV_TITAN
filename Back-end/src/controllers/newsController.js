@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const newsJsonPath = path.join('src', 'app', 'db', 'news.json')
+const newsJsonPath = path.join('src', 'db', 'news.json')
 
 function readNewsJson() {
     return JSON.parse(fs.readFileSync(newsJsonPath, 'utf-8'))
