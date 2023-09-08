@@ -1,0 +1,133 @@
+/* Estilos Gerais */ 
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #65DAF9;
+}
+
+/* Estilos Navbar */
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 55px;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-left: 10px;
+}
+
+#navbar-links a {
+    color: #FFF;
+}
+
+.collapse {
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+
+#navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.navbar-nav .nav-item:hover {
+    color: #65DAF9 !important;
+    transition: .5s;
+}
+
+/* Estilos Publicação de Notícias */
+
+#publish-area {
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+#publish-area h3 {
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.space {
+    margin: 60px;
+}
+
+#image-input {
+    border-radius: 20px;
+    border: 1px solid #65DAF9;
+    display: inline;
+    width: 40%;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #65DAF9;
+    display: inline;
+    width: 40%;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.publish-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #65DAF9;
+    background-color: #65DAF9;
+    text-transform: uppercase;
+    color: #FFF;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -5px;
+}
+
+#publish-area p {
+    font-size: 18px;
+}
+
+/* Estilos Footer */
+
+#copy-area {
+    background-color: #121212;
+}
+
+#copy-area .container {
+    text-align: center;
+    padding: 5px 0;
+}
+
+#copy-area .container p {
+    color: #FFF;
+    margin: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+}
