@@ -97,8 +97,7 @@ a:hover {
 }
 
 .publish-btn {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
     border: 1px solid #65DAF9;
     background-color: #65DAF9;
     text-transform: uppercase;
@@ -106,6 +105,7 @@ a:hover {
     height: 40px;
     padding: 0 30px;
     margin-left: -5px;
+    margin-top: 60px;
 }
 
 #publish-area p {
