@@ -3,8 +3,8 @@
     "sports": [
       {
         "id": "1",
-        "image": "https://unsplash.com/developers",
-        "title": "título",
+        "image": "https://picsum.photos/200",
+        "title": "Equipe Local Vence Grande Partida",
         "data": "conteúdo",
         "author": "Fábio",
         "comments": [],
@@ -12,10 +12,28 @@
       },
       {
         "id": "2",
-        "image": "imagem",
-        "title": "título",
+        "image": "https://picsum.photos/200",
+        "title": "Fábio Compartilha Experiências do Mundo dos Esportes",
         "data": "conteúdo",
-        "author": "Seabra",
+        "author": "Fábio",
+        "comments": [],
+        "category": "sports"
+      },
+      {
+        "id": 9,
+        "image": "https://unsplash.com/developers",
+        "title": "teste",
+        "data": "conteúdo",
+        "author": "Fábio",
+        "comments": [],
+        "category": "sports"
+      },
+      {
+        "id": 10,
+        "image": "https://unsplash.com/developers",
+        "title": "Campeonato de Ping Pong",
+        "data": "conteúdo",
+        "author": "Fábio",
         "comments": [],
         "category": "sports"
       }
@@ -23,17 +41,17 @@
     "tech": [
       {
         "id": "3",
-        "image": "imagem",
-        "title": "título",
-        "data": "conteúdo",
-        "author": "autor",
+        "image": "https://picsum.photos/100",
+        "title": "Teste",
+        "data": "19/08",
+        "author": "Fábio",
         "comments": [],
         "category": "tech"
       },
       {
         "id": "4",
-        "image": "imagem",
-        "title": "título",
+        "image": "https://picsum.photos/200",
+        "title": "Autor Especializado Analisa Avanços Tecnológicos",
         "data": "conteúdo",
         "author": "autor",
         "comments": [],
@@ -43,8 +61,8 @@
     "arts": [
       {
         "id": "5",
-        "image": "imagem",
-        "title": "título",
+        "image": "https://picsum.photos/200",
+        "title": "Artista Destaca Sua Visão Única na Criação de Obras de Arte",
         "data": "conteúdo",
         "author": "autor",
         "comments": [],
@@ -52,10 +70,19 @@
       },
       {
         "id": "6",
-        "image": "imagem",
-        "title": "título",
+        "image": "https://picsum.photos/200",
+        "title": "Explorando a Expressão Criativa no Mundo das Artes",
         "data": "conteúdo",
         "author": "autor",
+        "comments": [],
+        "category": "arts"
+      },
+      {
+        "id": 11,
+        "image": "https://picsum.photos/200",
+        "title": "Teste notícia",
+        "data": "conteúdo",
+        "author": "Fábio",
         "comments": [],
         "category": "arts"
       }
@@ -63,8 +90,8 @@
     "others": [
       {
         "id": "7",
-        "image": "imagem",
-        "title": "título",
+        "image": "https://picsum.photos/200",
+        "title": "Notícia Interessante de Outra Categoria",
         "data": "conteúdo",
         "author": "autor",
         "comments": [],
@@ -72,8 +99,8 @@
       },
       {
         "id": "8",
-        "image": "imagem",
-        "title": "título",
+        "image": "https://picsum.photos/200",
+        "title": "Título de Notícia da Categoria 'Outras'",
         "data": "conteúdo",
         "author": "autor",
         "comments": [],
