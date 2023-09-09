@@ -1,13 +1,13 @@
 
 async function loadAndGenerateNewsHTML() {
     try {
-      const response = await fetch('http://localhost:3000/news'); // Caminho para o seu arquivo JSON
+      const response = await fetch('http://localhost:3000/news'); 
       if (!response.ok) {
         throw new Error('Erro ao carregar o arquivo JSON');
       }
       const newsData = await response.json();
   
-      // Suponha que suas categorias estejam definidas em um array
+      
       const categories = ['sports', 'tech', 'arts', 'others'];
   
       categories.forEach((category) => {
@@ -19,7 +19,7 @@ async function loadAndGenerateNewsHTML() {
     }
   }
   
-  // Chame a função para carregar e gerar o HTML das notícias
+
   loadAndGenerateNewsHTML();
       function generateNewsHTML(category, news) {
         const newsContainer = document.getElementById("news-container");
@@ -37,7 +37,7 @@ async function loadAndGenerateNewsHTML() {
         });
       }
       
-      // Gerar o HTML para cada categoria
+      
       generateNewsHTML("sports", newsData.news.sports);
       generateNewsHTML("tech", newsData.news.tech);
       generateNewsHTML("arts", newsData.news.arts);
