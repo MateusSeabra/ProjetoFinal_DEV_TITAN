@@ -3,10 +3,10 @@
     "sports": [
       {
         "id": "1",
-        "image": "imagem",
+        "image": "https://unsplash.com/developers",
         "title": "título",
         "data": "conteúdo",
-        "author": "autor",
+        "author": "Fábio",
         "comments": [],
         "category": "sports"
       },
@@ -15,7 +15,7 @@
         "image": "imagem",
         "title": "título",
         "data": "conteúdo",
-        "author": "autor",
+        "author": "Seabra",
         "comments": [],
         "category": "sports"
       }
